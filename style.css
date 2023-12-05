@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+:root{
+    --light-color: rgb(238, 45, 58);
+}
+@font-face {
+    font-family: digital7;
+    src: url('/Clock/digital-7.ttf');
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #2C3A47;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.frame{
+    margin-top: 30px;
+    border: 35px solid #61e4c7;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    width: 480px;
+    height: 200px;
+    padding: auto;
+    border-radius: 7px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.clock
+{
+    font-family: digital7;
+    font-size: 65px;
+    text-shadow: 0 0 20px var(--light-color);
+
+}
+
